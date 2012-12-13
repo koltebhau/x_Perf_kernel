@@ -111,10 +111,10 @@
 // Jagan-
 
 #define MSM_AUDIO_SIZE		0x80000
-#define MSM_GPU_PHYS_SIZE 	SZ_2M
+#define MSM_GPU_PHYS_SIZE 	SZ_4M
 
 // Jagan+
-#ifdef CONFIG_HDMI_BUGFIX
+#ifdef CONFIG_HDMI_BUGFIX5
 #define MSM_FBNEW_SIZE	800*480*8
 #endif
 // Jagan-

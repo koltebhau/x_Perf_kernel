@@ -2533,9 +2533,10 @@ static int __devinit msm_smd_probe(struct platform_device *pdev)
     msm_smd_debug_mask = 0x0 ;
 
 	SMD_INFO("smd probe\n");
-
+/*
        smd_qos_req_list = pm_qos_add_request(PM_QOS_CPU_DMA_LATENCY,
                                             PM_QOS_DEFAULT_VALUE);
+*/
        if (IS_ERR(smd_qos_req_list)) {
        	   printk("%s: Failed to request pm_qos\n",__func__);
            goto err_probe_add_pm_qos;
