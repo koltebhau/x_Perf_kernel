@@ -1,8 +1,8 @@
-/* This file is auto generated, version 5 */
+/* This file is auto generated, version 7 */
 /*  PREEMPT */
 #define UTS_MACHINE "arm"
-#define UTS_VERSION "#5 PREEMPT Thu Dec 13 20:41:04 IST 2012"
-#define LINUX_COMPILE_TIME "20:41:04"
+#define UTS_VERSION "#7 PREEMPT Thu Dec 13 21:17:47 IST 2012"
+#define LINUX_COMPILE_TIME "21:17:47"
 #define LINUX_COMPILE_BY "root"
 #define LINUX_COMPILE_HOST "koltebhau-amd64-phenomII-x6"
 #define LINUX_COMPILE_DOMAIN "(none)"
