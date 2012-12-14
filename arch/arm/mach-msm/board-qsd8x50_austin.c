@@ -3069,7 +3069,7 @@ static int __init pmem_kernel_ebi1_size_setup(char *p)
 	pmem_kernel_ebi1_size = memparse(p, NULL);
 	return 0;
 }
-+
+
 early_param("pmem_kernel_ebi1_size", pmem_kernel_ebi1_size_setup);
 
 #ifdef CONFIG_KERNEL_PMEM_SMI_REGION

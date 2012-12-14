@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.14
- * Fri Dec 14 10:46:09 2012
+ * Fri Dec 14 20:22:50 2012
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_NF_CONNTRACK_H323 1
@@ -585,6 +585,7 @@
 #define CONFIG_USB_MSM_OTG_72K 1
 #define CONFIG_MSM7X00A_IDLE_SPIN_TIME 80000
 #define CONFIG_INPUT_TOUCHSCREEN 1
+#define CONFIG_DSC_KICKCPU 1
 #define CONFIG_ARM_THUMB 1
 #define CONFIG_IP_NF_MATCH_AH 1
 #define CONFIG_NETFILTER_XT_MATCH_LIMIT 1

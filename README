@@ -5,7 +5,17 @@ By Abhiman Kolte a.k.a koltebhau a.k.a ASK
 This kernel source is based on DSC-TEAM-Phoenix
 I have patched and added many tweaks
 
+Integreted kernel-tools
+after zImage is ready
+run
 
+
+./zimage
+./menu
+
+Follow Instructions
+Done
+find boot.img in /output
 
 regards,
 ASK

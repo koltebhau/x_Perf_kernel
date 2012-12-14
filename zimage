@@ -1,0 +1,4 @@
+#!/bin/bash
+#ASK 2012
+rm input/zImage
+cp arch/arm/boot/zImage input
