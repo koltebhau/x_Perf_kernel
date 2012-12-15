@@ -35,6 +35,7 @@
 #include <linux/oom.h>
 #include <linux/sched.h>
 #include <linux/notifier.h>
+#include <linux/compaction.h>
 
 static uint32_t lowmem_debug_level = 2;
 static int lowmem_adj[6] = {
@@ -45,10 +46,10 @@ static int lowmem_adj[6] = {
 };
 static int lowmem_adj_size = 4;
 static size_t lowmem_minfree[6] = {
-	2 * 512,	/* 8MB */
-	4 * 1024,	/* 16MB */
-	8 * 1024,	/* 32MB */
-	20 * 1024,	/* 32MB */
+	4 * 512,	/* 16MB */
+	10 * 1024,	/* 40MB */
+	16 * 1024,	/* 64MB */
+	20 * 1024,	/* 80MB */
 };
 static int lowmem_minfree_size = 4;
 
